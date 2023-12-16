@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: ghostwhite;
+}
+
+.checkbtn{
+    font-size:30px;
+    float:left;
+    margin-left:20px;
+    display:none;
+}
+
+#check{
+    display:none;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+
+        nav ul li a:hover {
+            background-color: #A9bbbd;
+            transition: 0.6s;
+            border-radius: 3px;
+        }
+
+.social-media i {
+    font-size: 24px;
+    margin: 0 5px;
+    margin-top: 5px;
+}
+
+
+
+.mavi-blok {
+    background-color: #5F9EA0;
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mavi-blok {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.profil-resmi {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.metin-ve-ikonlar {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.sosyal-medya {
+    display: flex;
+    gap: 10px;
+}
+
+
+.berk-kiyi {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.bilgisayar-muhendisi {
+    font-size: 20px;
+    text-align: left;
+}
+
+.tanitim{
+    font-size: 14px;
+    text-align: left;
+}
+
+.sosyal-medya {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.download-button {
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; 
+    width:220px;
+}
+
+.icon-background {
+    background-color: #666;
+    padding: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.fa-solid {
+    font-size: 12px; 
+    color: white;
+}
+
+.button-text {
+    color: white;
+    margin-left: 5px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+h2 {
+
+    text-align: left;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.col {
+    border-right: 0.1px solid white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-gap:5px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+
+    width:80%;
+    padding-left:30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+    .grid-item h2 {
+        margin-left:18px;
+        font-size: 20px;
+        margin-bottom:10px;
+    }
+
+    .grid-item p {
+        margin-left:20px;
+        font-size: 16px;
+    }
+    .grid-item .date {
+        font-size: 10px;
+        color: #FFFFFF;
+        background-color: #bdbebd;
+        margin-bottom: 5px;
+        padding: 2px 4px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .date{
+        display: inline;
+        
+    }
+.icon-container {
+    border-left: 1px solid black;
+    margin-right:20px;
+}
+    .icon-container i {
+        background-color: #5F9EA0;
+        border-radius: 50%;
+        padding: 10px;
+    }
+.text-content {
+    padding-left: 30px;
+}
+.icon-border {
+    display: inline-block;
+    position: relative;
+    left: -14px;
+}
+
+    .icon-border::after {
+        content: "";
+        position: absolute;
+        left: 50%; 
+        bottom: -10px; 
+        width: 2px; 
+        height: 20px; 
+        background: #D8D8D8; 
+    }
+.my-divider {
+    width: 70%;
+    margin: 0 auto;
+    border: none;
+    height: 2px;
+    background-color: #CCC;
+}
+
+
+.myDiv {
+    position: relative;
+    padding: 0 30px 0 30px; /* Sað ve sol padding deðerlerini ekleyerek metin ve yüzde arasýnda biraz daha fazla boþluk saðladýk */
+}
+
+.percentage {
+    position: absolute;
+    right: 100px;
+}
+
+.percentage {
+    color: #00b7b8;
+}
+.my-divider {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 2px;
+    background-color: #bdbdbd;
+}
+
+/*MOST RECENT POST*/
+
+.video-background {
+    position: relative;
+    width: 370px;
+    height: 450px;
+    background: linear-gradient(rgba(0,212,255,0.3), rgba(0,212,255,0.3)), url('images/video.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,212,255,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.video-background:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.additional-div, .third-div {
+    position: relative;
+    width: 370px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.additional-div {
+    background-image: url('images/resim2.png');
+}
+
+.third-div {
+    background-image: url('images/resim3.png');
+}
+
+.additional-div, .third-div, .video-background {
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    padding-top: 10px;
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Portfolios*/
+/**/
+.custom-div {
+    background-color: #5F9EA0;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    position: relative;
+    // Add relative positioning here
+}
+
+.portfolio-title {
+    position: absolute;
+    font-size: 1.2em;
+    left: 50%;
+    transform: translate(-50%, -250%);
+}
+
+
+
+.portfolio-item {
+    width: 220px;
+    height: 205px;
+    background-image: url('images/webdevelopment.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.click-for-more {
+    position: absolute;
+    font-size: 1.2em;
+    left: 50%;
+    transform: translate(-50%, 333%);
+    color:white;
+}
+    .click-for-more a {
+        text-decoration: none;
+        color: inherit; 
+    }
+
+    .container{
+        margin-top:30px;
+    }
+.col-md-4, .col-md-8 {
+    border: 1px solid black;
+    padding: 10px;
+    background-color:brown;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: ghostwhite;
+    position: relative;
+}
+
+.social-media a{
+    color:inherit;
+}
+
+.footer-left {
+    width: 50%;
+    padding-left: 180px;
+}
+
+.footer-right {
+    width: 50%;
+    margin-left:100px;
+}
+
+    .footer-left h2,
+    .footer-right h2 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .footer-left p,
+    .footer-right p {
+        margin: 10px 0;
+    }
+
+    .footer-left .social-media,
+    .footer-right .social-media {
+        display: flex;
+    }
+
+    .footer-left .social-media i,
+      .footer-right .social-media i {
+        font-size: 24px;
+        margin: 0 5px;
+      }
+.footer-links {
+    margin-top: 50px; 
+}
+
+.footer-info{
+    margin-right:250px;
+}
+.copyright {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right:250px;
+}
+
+
+.company-name {
+    position: absolute;
+    right: 20px;
+    top:10px; 
+}
+
+
+
+/*Responsive start*/
+
+/* Ekran geniþliði 600px'den küçük olduðunda uygulanacak stiller */
+@media (max-width: 600px) {
+    nav, .social-media {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+/* Ekran geniþliði 601px'den büyük olduðunda uygulanacak stiller */
+@media (min-width: 601px) {
+    nav, .social-media {
+        display: block;
+    }
+
+    .menu-button {
+        display: none;
+    }
+}
+
+
+
+
+/*Responsive end*/
